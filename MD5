@@ -1,0 +1,12 @@
+f1a4a0f662e62b5cd9e18e463a283017 *DESCRIPTION
+dc21c19f0d6968ee25d441b2cf46017d *NAMESPACE
+8a1f8ca3eb90acf54e1dede2181c726d *R/murders.R
+782d8199cae07dac01e8bcc5d6984933 *R/na_example.R
+56cb813ddceaf0e30321326712710127 *README.md
+0ac58781db022e3c6401550a6f77d90b *data/murders.rda
+112ce17ce793dbb40a6dead0d7e5454f *data/na_example.rda
+ab7666bed5955c96e353cd8d14aa14ce *inst/extdata/murders.csv
+96f7df5379d9e4b3add510c5a31e994a *inst/script/murders-creation.R
+9e27fb08bdbab645a122450bf13a73d5 *inst/script/na_example-creation.R
+e3d1e45855300027a5f38413c78c878a *man/murders.Rd
+8be44f8c135442ca52d029688019afa0 *man/na_example.Rd
