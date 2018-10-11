@@ -4,9 +4,9 @@
 \alias{rfalling_object}
 \title{Simulate falling object data}
 \usage{
-rfalling_object(n = 14, d_0 = 55.86, v_0 = 0, g = -9.8, scale = 1,
-  time = seq(0, 3.25, length.out = n), error_distribution = c("rnorm",
-  "rt"), df = 3)
+rfalling_object(n = 14, d_0 = 55.86, v_0 = 0, g = -9.8,
+  scale = 1, time = seq(0, 3.25, length.out = n),
+  error_distribution = c("rnorm", "rt"), df = 3)
 }
 \arguments{
 \item{n}{Sample size}
@@ -15,7 +15,7 @@ rfalling_object(n = 14, d_0 = 55.86, v_0 = 0, g = -9.8, scale = 1,
 
 \item{v_0}{Initial velocity with which object will fall in meters per second.}
 
-\item{g}{Gravitational constnant, 9.8 meters per second per seonnd}
+\item{g}{Gravitational constant, 9.8 meters per second per seonnd}
 
 \item{scale}{The measurement errors will be multiplied by this constant.}
 
@@ -29,7 +29,8 @@ rfalling_object(n = 14, d_0 = 55.86, v_0 = 0, g = -9.8, scale = 1,
 A \code{data.frame} with the time, the distance travelled, and the observed distance.
 }
 \description{
-The function simulates a falling object measurements. Default parameters are for dropping an weight from the tower of Pisa
+The function simulates a falling object's position. Default parameters are for dropping a 
+weight from the tower of Pisa.
 }
 \examples{
 
