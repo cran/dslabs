@@ -1,4 +1,4 @@
-fef5ca050f40212986f1c8bddbb79b2a *DESCRIPTION
+82ec8cc0dc34cd5d8221b9e7f9c38476 *DESCRIPTION
 9c422f48e0af8940fadb540624255cd2 *NAMESPACE
 c5b02e825a0f7948159703420234415d *R/admissions.R
 6d2d13ff3de9b68ef5daf7e148e3acae *R/divorce_margarine.R
@@ -39,7 +39,7 @@ de1a95c3a549a46f8788b1703385a870 *data/movielens.rda
 9921d987c814bf6d38794e97bf75dad9 *data/raw_data_research_funding_rates.rda
 f6f815654646053114271833f5a3278c *data/reported_heights.rda
 88a940460046960304fbbbe98fd85ac9 *data/research_funding_rates.rda
-3b8bdb52dc7f5b84a5780a16eff61734 *data/tissue_gene_expression.rda
+c1714dced2229dac1867f640bd3cee08 *data/tissue_gene_expression.rda
 1bcc7eec9912903fb55548232ad8ab96 *data/trump_tweets.rda
 4344f8435ed417165e823c706ef3c20a *data/us_contagious_diseases.rda
 1f85772a37743d8822d672c338a615ed *inst/extdata/RD-Mortality-Report_2015-18-180531.pdf
@@ -60,7 +60,7 @@ dfb6cad3aa58ae2168e2aa9f5cbd097f *inst/script/make-na_example-rda.R
 fb21f2bbf1180c8ea26e8c9bb463f186 *inst/script/make-polls_us_election_2016.R
 5fef559be95fceaa95458dc8258e009c *inst/script/make-reported_heights-rda.R
 43078fceea67a668075ced2e35adfdc1 *inst/script/make-research_funding_rates.R
-2ab3add336343926cb11d545fb8ed406 *inst/script/make-tissue-gene-expression.R
+e48ac8ee56702af9b813dddd28620c4c *inst/script/make-tissue-gene-expression.R
 db473a730c1aef5c9f659bed61a842e0 *inst/script/make-trump_tweets.R
 a8439f4f61d4c29d1b20520d62478d7e *inst/script/make-weekly_us_contagious_diseases.R
 3a1d85fea027066e345221735c753519 *inst/script/save-gapminder-example-csv.R
