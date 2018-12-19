@@ -1,4 +1,4 @@
-82ec8cc0dc34cd5d8221b9e7f9c38476 *DESCRIPTION
+fe15864f72c579913652a32d6a9f49d6 *DESCRIPTION
 9c422f48e0af8940fadb540624255cd2 *NAMESPACE
 c5b02e825a0f7948159703420234415d *R/admissions.R
 6d2d13ff3de9b68ef5daf7e148e3acae *R/divorce_margarine.R
@@ -35,7 +35,7 @@ de1a95c3a549a46f8788b1703385a870 *data/movielens.rda
 594f8870fe0b94ab7dd7f3a9af183431 *data/olive.rda
 6e50317a5b7c6ea20839073e873df18d *data/outlier_example.rda
 9dbde07e922bcd0d904d1e6c4a833e74 *data/polls_2008.rda
-66346afb4d146d7d8f32a5fbd2323afd *data/polls_us_election_2016.rda
+1299cd72e1c10bc2f6f4f1c69affbad9 *data/polls_us_election_2016.rda
 9921d987c814bf6d38794e97bf75dad9 *data/raw_data_research_funding_rates.rda
 f6f815654646053114271833f5a3278c *data/reported_heights.rda
 88a940460046960304fbbbe98fd85ac9 *data/research_funding_rates.rda
@@ -57,7 +57,7 @@ dfb6cad3aa58ae2168e2aa9f5cbd097f *inst/script/make-na_example-rda.R
 19fbc7b6f6433758c67be5563c370cc6 *inst/script/make-olive.R
 86104e6153da06737d137a474a8355b1 *inst/script/make-outlier_example.R
 5d77b9f41173e0af9bb684c47f33c7a6 *inst/script/make-polls_2008.R
-fb21f2bbf1180c8ea26e8c9bb463f186 *inst/script/make-polls_us_election_2016.R
+9c25341890736d42cd9a5cb72719beff *inst/script/make-polls_us_election_2016.R
 5fef559be95fceaa95458dc8258e009c *inst/script/make-reported_heights-rda.R
 43078fceea67a668075ced2e35adfdc1 *inst/script/make-research_funding_rates.R
 e48ac8ee56702af9b813dddd28620c4c *inst/script/make-tissue-gene-expression.R
