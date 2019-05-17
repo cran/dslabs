@@ -1,6 +1,7 @@
-fe15864f72c579913652a32d6a9f49d6 *DESCRIPTION
+8dbd8fa06397c14d83e1fa15d84afe33 *DESCRIPTION
 9c422f48e0af8940fadb540624255cd2 *NAMESPACE
 c5b02e825a0f7948159703420234415d *R/admissions.R
+cfe68388b22bb7753760ec4826a81efe *R/brexit_polls.R
 6d2d13ff3de9b68ef5daf7e148e3acae *R/divorce_margarine.R
 a3f93810d777b8458492c996950e63f7 *R/ds_theme_set.R
 87734e05ae8497ea099c93cb65f08504 *R/gapminder.R
@@ -9,6 +10,7 @@ f5dd9c67fea81ec500821483ab74f973 *R/mnist_27.R
 dfc663bce9ffd44164507b008b0aeb85 *R/movielens.R
 c18c8313d55a2205ae96b09a339c5ca2 *R/murders.R
 782d8199cae07dac01e8bcc5d6984933 *R/na_example.R
+fc24a909670dd295843d7c8b86aa97f6 *R/nyc_regents_scores.R
 d711b356e681c61f3e61b56931d6d415 *R/olive.R
 ab1f31809300642db1984409c014b7ee *R/outlier_example.R
 bae29801f2f298c1d50c5a23a9498717 *R/polls_2008.R
@@ -24,7 +26,8 @@ ae4e903f36b154e85e5ede5edd01eccd *R/us_contagious_disease.R
 ddd652760fe4b84d28012e2cc70751a1 *R/utils.R
 56cb813ddceaf0e30321326712710127 *README.md
 a56518865cd8a3573aab9f5018f4d452 *data/admissions.rda
-b41a78f446285b2036264be002d7d45e *data/datalist
+d1cb5b9fb39cb636f68730b91639ec7b *data/brexit_polls.rda
+caa63f6923dba64a88e1625a0fdc33dc *data/datalist
 c9c9ef3f5c54d6d5300fa1f4bb88a3c7 *data/divorce_margarine.rda
 12d78d3aeed079a9c0102cf17e93de47 *data/gapminder.rda
 b6111452693f24c483e3bf262825f068 *data/heights.rda
@@ -32,6 +35,7 @@ b6111452693f24c483e3bf262825f068 *data/heights.rda
 de1a95c3a549a46f8788b1703385a870 *data/movielens.rda
 0ac58781db022e3c6401550a6f77d90b *data/murders.rda
 428f124d58efa5474b28fd7421abcd52 *data/na_example.rda
+bef5efe1fe9f66d4502084d79d89d2fc *data/nyc_regents_scores.rda
 594f8870fe0b94ab7dd7f3a9af183431 *data/olive.rda
 6e50317a5b7c6ea20839073e873df18d *data/outlier_example.rda
 9dbde07e922bcd0d904d1e6c4a833e74 *data/polls_2008.rda
@@ -42,18 +46,21 @@ f6f815654646053114271833f5a3278c *data/reported_heights.rda
 c1714dced2229dac1867f640bd3cee08 *data/tissue_gene_expression.rda
 1bcc7eec9912903fb55548232ad8ab96 *data/trump_tweets.rda
 4344f8435ed417165e823c706ef3c20a *data/us_contagious_diseases.rda
+92967696354562e8c63132b37e86aa2c *inst/extdata/2010_bigfive_regents.xls
 1f85772a37743d8822d672c338a615ed *inst/extdata/RD-Mortality-Report_2015-18-180531.pdf
 178576c5554502bb1acbbbfc56694af1 *inst/extdata/fertility-two-countries-example.csv
 95459b44f93f199faf5520fb5dc4e1db *inst/extdata/life-expectancy-and-fertility-two-countries-example.csv
 ab7666bed5955c96e353cd8d14aa14ce *inst/extdata/murders.csv
 680d5fd310a1f2ff9ff032dd5f2ffd82 *inst/extdata/olive.csv
 9d2969aa5de08e7e73a295cf0237ee88 *inst/script/make-admissions.R
+28b4b9c487787a18d51d6e6ca4b9f819 *inst/script/make-brexit_polls.R
 60d4f416c45f7a7d5d23720ebfe8c641 *inst/script/make-divorce_margarine.R
 2aeb483105c9a02f80900ea480679179 *inst/script/make-gapminder-rdas.R
 910ddfdc1c30b4f67d36936ad55a3910 *inst/script/make-mnist_27.R
 efc5ad1f3823be3c6c9de2d672214bd8 *inst/script/make-movielens.R
 96f7df5379d9e4b3add510c5a31e994a *inst/script/make-murders-rda.R
 dfb6cad3aa58ae2168e2aa9f5cbd097f *inst/script/make-na_example-rda.R
+9f85d2fad0e2b29068c7d102124703f5 *inst/script/make-nyc_regents_scores.R
 19fbc7b6f6433758c67be5563c370cc6 *inst/script/make-olive.R
 86104e6153da06737d137a474a8355b1 *inst/script/make-outlier_example.R
 5d77b9f41173e0af9bb684c47f33c7a6 *inst/script/make-polls_2008.R
@@ -65,6 +72,7 @@ db473a730c1aef5c9f659bed61a842e0 *inst/script/make-trump_tweets.R
 a8439f4f61d4c29d1b20520d62478d7e *inst/script/make-weekly_us_contagious_diseases.R
 3a1d85fea027066e345221735c753519 *inst/script/save-gapminder-example-csv.R
 e840daadae36d0b41ab58595a301daa6 *man/admissions.Rd
+cfcfbbea06aa88e491a9131ccc56ca2d *man/brexit_polls.Rd
 3abd47bbfd188558abab717005d8877a *man/divorce_margarine.Rd
 6630af2f94c409cc197ac1126eec4814 *man/ds_theme_set.Rd
 3192f9111265e71eebcf3d2f16d7d02d *man/gapminder.Rd
@@ -73,6 +81,7 @@ e43c28e1b841a748e6986e51f5ba7cda *man/mnist_27.Rd
 455c0519174311ecd08271c6d57a23f0 *man/movielens.Rd
 4cfce172e4eb52a25f2cc92720591138 *man/murders.Rd
 6df38bde5ab6ae1dbdc2feaa76a3093a *man/na_example.Rd
+7a8e4028a1d6382f35d3fa09fb290c74 *man/nyc_regents_scores.Rd
 c9d108c0287be18ae3e7105d7435efed *man/olive.Rd
 c8dd525fb2ba45db04f28f82eca9be18 *man/outlier_example.Rd
 0bd62918e4a1b3117bf33f96fd320886 *man/polls_2008.Rd

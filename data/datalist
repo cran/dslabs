@@ -1,4 +1,5 @@
 admissions
+brexit_polls
 divorce_margarine
 gapminder: gapminder oecd opec
 heights
@@ -6,6 +7,7 @@ mnist_27
 movielens
 murders
 na_example
+nyc_regents_scores
 olive
 outlier_example
 polls_2008
