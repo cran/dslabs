@@ -1,4 +1,4 @@
-2fedae9533976d80686ae076141ca465 *DESCRIPTION
+eb414a97df814e63b095279badc1fa82 *DESCRIPTION
 0c3a7d749c2310e170f05f915a96d608 *NAMESPACE
 c5b02e825a0f7948159703420234415d *R/admissions.R
 1a6440502a7e194d1c8e9c627b14f603 *R/brca.R
@@ -36,7 +36,7 @@ e2e336f319dd0ea2d7701d44de0c9c4b *data/brca.rda
 d1cb5b9fb39cb636f68730b91639ec7b *data/brexit_polls.rda
 06d78355a8bfe805674850589d312451 *data/datalist
 1640e6c7a50eba4d09a9fb98420f7baf *data/death_prob.rda
-c9c9ef3f5c54d6d5300fa1f4bb88a3c7 *data/divorce_margarine.rda
+4dc1a173ab774bf708af230f69229ec6 *data/divorce_margarine.rda
 12d78d3aeed079a9c0102cf17e93de47 *data/gapminder.rda
 ff0ea14e4a70ac30a70eab23c6860d02 *data/greenhouse_gases.rda
 b6111452693f24c483e3bf262825f068 *data/heights.rda
@@ -71,7 +71,7 @@ ab7666bed5955c96e353cd8d14aa14ce *inst/extdata/murders.csv
 e9601f9ca701f5cd7364a6dde287fe8e *inst/script/make-brca.R
 28b4b9c487787a18d51d6e6ca4b9f819 *inst/script/make-brexit_polls.R
 6b4a2eaa585638c5ae7d57ebe17d98c7 *inst/script/make-death_prob.R
-60d4f416c45f7a7d5d23720ebfe8c641 *inst/script/make-divorce_margarine.R
+6828a9b3224d417c0aa0d4d4b3ab4672 *inst/script/make-divorce_margarine.R
 2aeb483105c9a02f80900ea480679179 *inst/script/make-gapminder-rdas.R
 fec5d500717742d7a3be2858fc17662e *inst/script/make-greenhouse_gases.R
 72495469f4e81100960f8b0e8c296007 *inst/script/make-historic_co2.R
