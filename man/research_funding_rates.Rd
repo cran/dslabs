@@ -5,9 +5,11 @@
 \alias{research_funding_rates}
 \alias{raw_data_research_funding_rates}
 \title{Gender bias in research funding in the Netherlands}
-\format{An object of class \code{"data.frame"}.}
+\format{
+An object of class \code{"data.frame"}.
+}
 \source{
-van der Lee and Ellemers (2015) PNAS \url{http://www.pnas.org/content/112/40/12349.abstract}
+van der Lee and Ellemers (2015) PNAS \url{https://www.pnas.org/content/112/40/12349.abstract/}
 }
 \usage{
 data(research_funding_rates)

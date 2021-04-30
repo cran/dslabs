@@ -5,16 +5,21 @@
 \alias{polls_us_election_2016}
 \alias{results_us_election_2016}
 \title{Fivethirtyeight 2016 Poll Data}
-\format{An object of class \code{"data.frame"}.}
+\format{
+An object of class \code{"data.frame"}.
+}
 \source{
-\href{https://docs.google.com/spreadsheets/d/1zxyOQDjNOJS_UkzerorUCf2OAdcMcIQEwRciKuYBIZ4/pubhtml?widget=true&headers=false#gid=658726802}{Ballotpedia}
+The original csv file used to create \code{polls_us_election_2016} is here: \url{https://projects.fivethirtyeight.com/general-model/president_general_polls_2016.csv} 
+
+The data for \code{results_us_election_2016} is from Ballotpedia and can be found here:
+\url{https://docs.google.com/spreadsheets/d/1zxyOQDjNOJS_UkzerorUCf2OAdcMcIQEwRciKuYBIZ4/pubhtml?widget=true&headers=false#gid=658726802/}
 }
 \usage{
 data(polls_us_election_2016)
 }
 \description{
-Poll results from US 2016 presidential elections aggregated from HuffPost Pollster, RealClearPolitics, polling firms and news reports. The original csv file is here: \url{http://projects.fivethirtyeight.com/general-model/president_general_polls_2016.csv}.
-The dataset also includes election results (popular vote) and electoral college votes in results_us_election_2016.
+Poll results from US 2016 presidential elections aggregated from HuffPost Pollster, RealClearPolitics, polling firms, and news reports. 
+The dataset also includes election results (popular vote) and electoral college votes in \code{results_us_election_2016}.
 }
 \details{
 \itemize{

@@ -4,9 +4,8 @@
 \name{mnist_27}
 \alias{mnist_27}
 \title{Useful example for illustrating machine learning algorithms based on MNIST data}
-\format{An object of class \code{list}.}
-\source{
-\href{http://yann.lecun.com/exdb/mnist/}{http://yann.lecun.com/exdb/mnist/}
+\format{
+An object of class \code{list}.
 }
 \usage{
 data(mnist_27)
@@ -31,5 +30,11 @@ for \code{x_1}, \code{x_2}.
 data(mnist_27)
 with(mnist_27$train, plot(x_1, x_2, col = as.numeric(y)))
 
+}
+\references{
+Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner. "Gradient-based learning applied to document recognition." Proceedings of the IEEE, 86(11):2278-2324, November 1998.
+}
+\seealso{
+[read_mnist()]
 }
 \keyword{datasets}

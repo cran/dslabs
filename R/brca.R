@@ -36,7 +36,7 @@
 #' @keywords datasets
 #'
 #'
-#' @source \href{http://mlr.cs.umass.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)}{UCI Machine Learning Repository}
+#' @source \href{https://archive.ics.uci.edu/ml/datasets/}{UCI Machine Learning Repository}
 #' 
 #'
 #' @examples

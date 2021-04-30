@@ -21,7 +21,7 @@
 #'
 #' @keywords datasets
 #'
-#' @source  The Trump Twitter Archive: \url{http://www.trumptwitterarchive.com}
+#' @source  The Trump Twitter Archive: \url{https://www.thetrumparchive.com/}
 #' 
 #' @examples
 #' data(trump_tweets)

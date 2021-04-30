@@ -4,9 +4,11 @@
 \name{trump_tweets}
 \alias{trump_tweets}
 \title{Trump Tweets from2009 to 2017}
-\format{An object of class \code{"data.frame"}.}
+\format{
+An object of class \code{"data.frame"}.
+}
 \source{
-The Trump Twitter Archive: \url{http://www.trumptwitterarchive.com}
+The Trump Twitter Archive: \url{https://www.thetrumparchive.com/}
 }
 \usage{
 data(trump_tweets)
