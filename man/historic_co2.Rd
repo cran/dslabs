@@ -8,10 +8,10 @@
 An object of class \code{"data.frame"}.
 }
 \source{
-Mauna Loa data from \href{https://www.esrl.noaa.gov/gmd/ccgg/trends/data.html}{NOAA}. Ice core data from Bereiter et al. 2015 via \href{https://www.ncdc.noaa.gov/paleo-search/study/17975}{NOAA}.
+Mauna Loa data from \href{https://gml.noaa.gov/ccgg/trends/data.html}{NOAA}. Ice core data from Bereiter et al. 2015 via \href{https://gml.noaa.gov/ccgg/trends/data.html}{NOAA}.
 }
 \usage{
-data(historic_co2)
+historic_co2
 }
 \description{
 Concentration of carbon dioxide in ppm by volume from direct measurements at Mauna Loa (1959-2018 CE) and indirect measurements from a series of Antarctic ice cores (approx. -800,000-2001 CE).
@@ -24,7 +24,6 @@ Concentration of carbon dioxide in ppm by volume from direct measurements at Mau
 }
 }
 \examples{
-data(historic_co2)
 head(historic_co2)
 }
 \keyword{datasets}

@@ -1,6 +1,6 @@
 Package: dslabs
 Title: Data Science Labs
-Version: 0.7.4
+Version: 0.7.5
 Description: Datasets and functions that can be used for data analysis practice, homework and projects in data science courses and workshops. 26 datasets are available for case studies in data visualization, statistical inference, modeling, linear regression, data wrangling and machine learning.
 Author: Rafael A. Irizarry, Amy Gill
 Maintainer: Rafael A. Irizarry <rafael_irizarry@dfci.harvard.edu>
@@ -9,8 +9,8 @@ Imports: ggplot2
 License: Artistic-2.0
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.3
 NeedsCompilation: no
-Packaged: 2021-04-30 15:56:29 UTC; rafa
+Packaged: 2023-05-14 15:09:29 UTC; rafa
 Repository: CRAN
-Date/Publication: 2021-04-30 16:30:06 UTC
+Date/Publication: 2023-05-14 21:50:02 UTC

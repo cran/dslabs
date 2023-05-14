@@ -29,7 +29,7 @@
 #
 #' @docType data
 #'
-#' @usage data(brca)
+#' @usage brca
 #'
 #' @format An object of class \code{list}.
 #'  
@@ -40,7 +40,6 @@
 #' 
 #'
 #' @examples
-#' data(brca)
 #' table(brca$y)
 #' dim(brca$x)
 #' head(brca$x)

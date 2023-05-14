@@ -11,17 +11,16 @@
 #'
 #' @docType data
 #'
-#' @usage data(historic_co2)
+#' @usage historic_co2
 #'
 #' @format An object of class \code{"data.frame"}. 
 #'
 #' @keywords datasets
 #'
 #'
-#' @source Mauna Loa data from \href{https://www.esrl.noaa.gov/gmd/ccgg/trends/data.html}{NOAA}. Ice core data from Bereiter et al. 2015 via \href{https://www.ncdc.noaa.gov/paleo-search/study/17975}{NOAA}.
+#' @source Mauna Loa data from \href{https://gml.noaa.gov/ccgg/trends/data.html}{NOAA}. Ice core data from Bereiter et al. 2015 via \href{https://gml.noaa.gov/ccgg/trends/data.html}{NOAA}.
 #' 
 #'
 #' @examples
-#' data(historic_co2)
 #' head(historic_co2)
 "historic_co2"

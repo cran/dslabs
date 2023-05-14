@@ -12,15 +12,14 @@
 #'
 #' @docType data
 #'
-#' @usage data(divorce_margarine)
+#' @usage divorce_margarine
 #'
 #' @format An object of class \code{"data.frame"}.
 #'
 #' @keywords datasets
 #'
-#' @source \href{http://www.tylervigen.com/spurious-correlations}{Spurious Correlations}
+#' @source \href{https://www.tylervigen.com/spurious-correlations}{Spurious Correlations}
 #'
 #' @examples
-#' data(divorce_margarine)
 #' with(divorce_margarine, plot(margarine_consumption_per_capita, divorce_rate_maine))
 "divorce_margarine"

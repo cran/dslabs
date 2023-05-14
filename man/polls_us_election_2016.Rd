@@ -15,7 +15,7 @@ The data for \code{results_us_election_2016} is from Ballotpedia and can be foun
 \url{https://docs.google.com/spreadsheets/d/1zxyOQDjNOJS_UkzerorUCf2OAdcMcIQEwRciKuYBIZ4/pubhtml?widget=true&headers=false#gid=658726802/}
 }
 \usage{
-data(polls_us_election_2016)
+polls_us_election_2016
 }
 \description{
 Poll results from US 2016 presidential elections aggregated from HuffPost Pollster, RealClearPolitics, polling firms, and news reports. 
@@ -41,7 +41,6 @@ The dataset also includes election results (popular vote) and electoral college 
 }
 }
 \examples{
-data(polls_us_election_2016)
 head(polls_us_election_2016)
 }
 \keyword{datasets}

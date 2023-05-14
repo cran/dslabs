@@ -13,16 +13,14 @@
 #'
 #' @docType data
 #'
-#' @usage data(temp_carbon)
+#' @usage temp_carbon
 #'
 #' @format An object of class \code{"data.frame"}. 
 #'
 #' @keywords datasets
 #'
-#'
-#' @source \href{https://www.ncdc.noaa.gov/cag/global/time-series}{NOAA} and Boden, T.A., G. Marland, and R.J. Andres (2017) via \href{https://cdiac.ess-dive.lbl.gov/trends/emis/tre_glob_2014.html}{CDIAC}
+#' @source \href{https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global/time-series/}{NOAA} and Boden, T.A., G. Marland, and R.J. Andres (2017) via \href{https://cdiac.ess-dive.lbl.gov/trends/emis/tre_glob_2014.html}{CDIAC}
 #'
 #' @examples
-#' data(temp_carbon)
 #' head(temp_carbon)
 "temp_carbon"

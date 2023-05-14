@@ -8,7 +8,7 @@
 An object of class \code{list}.
 }
 \usage{
-data(mnist_27)
+mnist_27
 }
 \description{
 We only include a randomly selected set of 2s and 7s along with the two predictors based on the 
@@ -27,7 +27,6 @@ for \code{x_1}, \code{x_2}.
 }
 }
 \examples{
-data(mnist_27)
 with(mnist_27$train, plot(x_1, x_2, col = as.numeric(y)))
 
 }

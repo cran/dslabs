@@ -24,7 +24,7 @@
 #
 #' @docType data
 #'
-#' @usage data(polls_us_election_2016)
+#' @usage polls_us_election_2016
 #'
 #' @format An object of class \code{"data.frame"}. 
 #'
@@ -43,6 +43,5 @@
 #' 
 #'
 #' @examples
-#' data(polls_us_election_2016)
 #' head(polls_us_election_2016)
 "polls_us_election_2016"

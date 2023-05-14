@@ -8,10 +8,10 @@
 An object of class \code{"data.frame"}.
 }
 \source{
-\href{https://en.wikipedia.org/wiki/Murder_in_the_United_States_by_state}{Wikipedia}
+\href{https://en.wikipedia.org/wiki/Gun_violence_in_the_United_States_by_state}{Wikipedia}
 }
 \usage{
-data(murders)
+murders
 }
 \description{
 Gun murder data from FBI reports. Also contains the population of each state.
@@ -26,7 +26,6 @@ Gun murder data from FBI reports. Also contains the population of each state.
 }
 }
 \examples{
-data(murders)
 print(murders)
 }
 \keyword{datasets}
