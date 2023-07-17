@@ -1,4 +1,4 @@
-7a4f5c6509b58b61f7c4e7ab0e945695 *DESCRIPTION
+ee4bda7720af01d63481b5671dffa2db *DESCRIPTION
 a51507cdc06017b6bfd7d1950f76f347 *NAMESPACE
 dbca4af7f3f4aa7d27475354267e3e6d *R/admissions.R
 8d5a9d524adecb33a6f16b45b7025273 *R/brca.R
@@ -10,7 +10,7 @@ b880556c9c283294ab02aabd68746fe1 *R/gapminder.R
 44d1a41e62b00726aa4e3bb190167d31 *R/greenhouse_gases.R
 03ecc1e29e60f06629005d816e80135e *R/heights.R
 705685bc9c1198fef6ae627adee0af08 *R/historic_co2.R
-cc9d4a232ad19f70d45eefe9d5b66def *R/mice_weights.R
+7a40c36081cf0099d4f28aa1b4dad1f6 *R/mice_weights.R
 77880a5c17923300b0db41ffde2a2173 *R/mnist_27.R
 230390d8c3072b3ce865cec53b5ce924 *R/movielens.R
 6cdd4266944cb7d99fdce53bec541acc *R/murders.R
@@ -22,7 +22,7 @@ f398653352bbfafb5389cb3acb7b0e4c *R/polls_2008.R
 dd025b364c8b265424942fdd35cf8375 *R/polls_us_election_2016.R
 61bee2030cff9e56ae363aaa3289a34b *R/read_mnist.R
 6633e98695c769a98329e014ef76459e *R/reported_heights.R
-e3a126afe6bce278d0a36247adeb0cc6 *R/research_funding_rates.R
+864bab037c5c43e4195ad6e4ea2aef27 *R/research_funding_rates.R
 fadec1e706de98467072838bf0e3f802 *R/rfalling_object.R
 10865b0871b76fe8949160135687d99d *R/stars.R
 ccc9bdccb2e841a53313c67286e138e8 *R/take_poll.R
@@ -32,6 +32,7 @@ fd050175ec8813a814499a33a6d16d88 *R/tissue_gene_expression.R
 7a2ca8ee29122e6369b956a5b5106fe7 *R/us_contagious_disease.R
 ddd652760fe4b84d28012e2cc70751a1 *R/utils.R
 56cb813ddceaf0e30321326712710127 *README.md
+ea124a494ad7922985532ad3b308e4d5 *build/partial.rdb
 a56518865cd8a3573aab9f5018f4d452 *data/admissions.rda
 e2e336f319dd0ea2d7701d44de0c9c4b *data/brca.rda
 d1cb5b9fb39cb636f68730b91639ec7b *data/brexit_polls.rda
@@ -41,7 +42,7 @@ d1cb5b9fb39cb636f68730b91639ec7b *data/brexit_polls.rda
 ff0ea14e4a70ac30a70eab23c6860d02 *data/greenhouse_gases.rda
 b6111452693f24c483e3bf262825f068 *data/heights.rda
 728b096652af67774129de049d171e41 *data/historic_co2.rda
-134df39a0e0d94ed82871ace24f52a10 *data/mice_weigths.rda
+767d2fe96e1822912aa769c65b3b0e8c *data/mice_weigths.rda
 7baecb0470f7cd5d541756cadd037c38 *data/mnist_27.rda
 de1a95c3a549a46f8788b1703385a870 *data/movielens.rda
 0ac58781db022e3c6401550a6f77d90b *data/murders.rda
@@ -76,7 +77,7 @@ e9601f9ca701f5cd7364a6dde287fe8e *inst/script/make-brca.R
 2aeb483105c9a02f80900ea480679179 *inst/script/make-gapminder-rdas.R
 fec5d500717742d7a3be2858fc17662e *inst/script/make-greenhouse_gases.R
 72495469f4e81100960f8b0e8c296007 *inst/script/make-historic_co2.R
-e681e8435fa715000c794e6778254c2c *inst/script/make-mice_weights.R
+d8fbf2bd201758ad42fd85c5f59ad64a *inst/script/make-mice_weights.R
 910ddfdc1c30b4f67d36936ad55a3910 *inst/script/make-mnist_27.R
 efc5ad1f3823be3c6c9de2d672214bd8 *inst/script/make-movielens.R
 96f7df5379d9e4b3add510c5a31e994a *inst/script/make-murders-rda.R
@@ -104,7 +105,7 @@ ec6e11d76c102d16ee660ba139e7a36c *man/death_prob.Rd
 0ee11a959ff5618a0f4777b9bfe09c20 *man/greenhouse_gases.Rd
 7ea9b074d07ff62319653599c5b1a1b9 *man/heights.Rd
 a0a9e01340a48bb8db2e3b6aff9e66ca *man/historic_co2.Rd
-eb39565907afc017c99bd0fcd777f820 *man/mice_weights.Rd
+f2736f351c1b60eb11e28a81fb250080 *man/mice_weights.Rd
 e1d9e0d0586c8e0c36d54b2d01031878 *man/mnist_27.Rd
 11438b3426ab419d7439a695472ffac1 *man/movielens.Rd
 8135fee51d7c4ad3d53947d1c28d24fb *man/murders.Rd
@@ -116,7 +117,7 @@ c770c8263411ca174697993ae67c1ed0 *man/outlier_example.Rd
 456f1e2011121c3241770f6c7b175a77 *man/polls_us_election_2016.Rd
 dc01f0ad7b698477cdce323dc3865973 *man/read_mnist.Rd
 756b9632ed86625bb0e74d4db7617878 *man/reported_heights.Rd
-0406264c5d0cbe04c3a845ecc1e2305d *man/research_funding_rates.Rd
+ab371662030e423e276c760dd316e70d *man/research_funding_rates.Rd
 5894869da08f968666f4f712d68db0c4 *man/rfalling_object.Rd
 ff179b191a3b5afa896ab81c42c7546e *man/stars.Rd
 81d891c1b9372c129c1e67ab8206c163 *man/take_poll.Rd
