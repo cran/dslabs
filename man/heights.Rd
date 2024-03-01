@@ -3,7 +3,7 @@
 \docType{data}
 \name{heights}
 \alias{heights}
-\title{Self-Reported Heights}
+\title{Self-reported Heights in Inches}
 \format{
 An object of class \code{"data.frame"}.
 }
@@ -11,15 +11,18 @@ An object of class \code{"data.frame"}.
 heights
 }
 \description{
-Self-reported heights in inches for males and females.
+Self-reported heights and sex. The heights were converted to inches from the original data included in \code{\link{reported_heights}}.
 }
 \details{
 \itemize{
- \item sex. Male or Female.
- \item height. Height in inches. 
+ \item sex. A factor with the self-reported sex. 
+ \item height. A numeric vector with self-reported heights in inches. 
 }
 }
 \examples{
 head(heights)
+}
+\seealso{
+\code{\link{reported_heights}} for the original data source.
 }
 \keyword{datasets}

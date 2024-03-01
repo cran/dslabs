@@ -2,7 +2,7 @@ source("R/read_mnist.R")
 library(caret)
 
 ## read-in data
-mnist <- read_mnist()
+if (!exists("mnist")) mnist <- read_mnist()
 ## keep only 2s and 7s
 index_27 <- which(mnist$train$labels %in% c(2,7))
 y <- mnist$train$labels[index_27] 
@@ -18,7 +18,7 @@ x <- cbind(rowSums(x[ ,upper_left_ind])/rowSums(x), #proportion of pixels in upp
 
 ## To estimate the "true" p(x_1, x_2) we will smooth the result of knn 
 fit <-knn3(x, factor(y), 51)
-GS <- 150
+GS <- 125
 true_p <- expand.grid(x_1 = seq(min(x[,1]), max(x[,1]), len=GS),
                       x_2 = seq(min(x[,2]), max(x[,2]), len=GS))
                         

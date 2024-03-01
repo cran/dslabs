@@ -8,9 +8,7 @@
 #' @param  download If \code{TRUE} the files will be downloaded and saved in detsdir.
 #' @param destdir A character giving the full path of the directory in which to save the downloaded files. The default is to use a temporary directory.
 #' @param url A character giving the URL from which to download files. Currently a copy of the data is available at https://www2.harvardx.harvard.edu/courses/IDS_08_v2_03/, the current default URL.
-#' @param keep.files A logical. If \code{TRUE} the downloaded files will be saved in \code{destdir}. If \code{FALSE} the entire directory is erased. This argument is ignored if \code{download} is \code{FALSE}.){
-
-#' }
+#' @param keep.files A logical. If \code{TRUE} the downloaded files will be saved in \code{destdir}. If \code{FALSE} the entire directory is erased. This argument is ignored if \code{download} is \code{FALSE}.
 #'
 #' @return A list with two components: train and test. Each of these is a list with two components: images and labels. The images component is a
 #' matrix with each column representing one of the 28*28 = 784 pixels. The values are integers between 0 and 255 representing grey scale. 

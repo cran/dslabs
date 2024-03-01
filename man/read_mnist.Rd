@@ -21,8 +21,7 @@ read_mnist(
 
 \item{url}{A character giving the URL from which to download files. Currently a copy of the data is available at https://www2.harvardx.harvard.edu/courses/IDS_08_v2_03/, the current default URL.}
 
-\item{keep.files}{A logical. If \code{TRUE} the downloaded files will be saved in \code{destdir}. If \code{FALSE} the entire directory is erased. This argument is ignored if \code{download} is \code{FALSE}.){
-}}
+\item{keep.files}{A logical. If \code{TRUE} the downloaded files will be saved in \code{destdir}. If \code{FALSE} the entire directory is erased. This argument is ignored if \code{download} is \code{FALSE}.}
 }
 \value{
 A list with two components: train and test. Each of these is a list with two components: images and labels. The images component is a

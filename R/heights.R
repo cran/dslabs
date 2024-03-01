@@ -1,13 +1,16 @@
-#' Self-Reported Heights
+#' Self-reported Heights in Inches
 #' 
-#' Self-reported heights in inches for males and females.
-#'
+#' Self-reported heights and sex. The heights were converted to inches from the original data included in \code{\link{reported_heights}}.
+#' 
 #'\itemize{
-#'  \item sex. Male or Female.
-#'  \item height. Height in inches. 
+#'  \item sex. A factor with the self-reported sex. 
+#'  \item height. A numeric vector with self-reported heights in inches. 
 #' }
 #'
 #'
+#' @seealso
+#' \code{\link{reported_heights}} for the original data source.
+#' 
 #' @docType data
 #'
 #' @usage heights

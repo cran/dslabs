@@ -19,8 +19,10 @@
 #'
 #' @keywords datasets
 #'
-#' @source \href{https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global/time-series/}{NOAA} and Boden, T.A., G. Marland, and R.J. Andres (2017) via \href{https://cdiac.ess-dive.lbl.gov/trends/emis/tre_glob_2014.html}{CDIAC}
+#' @source NOAA and Boden, T.A., G. Marland, and R.J. Andres (2017) via CDIAC
 #'
 #' @examples
 #' head(temp_carbon)
+## NOAA: https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global/time-series/
+## CDIAC: https://cdiac.ess-dive.lbl.gov/trends/emis/tre_glob_2014.html
 "temp_carbon"
