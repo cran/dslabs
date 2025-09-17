@@ -1,11 +1,12 @@
-e482b746fab69d5d989e8c4e6c557526 *DESCRIPTION
-a51507cdc06017b6bfd7d1950f76f347 *NAMESPACE
+90ce8f9d2917ac8a2be05324e627018c *DESCRIPTION
+38ba62114ad58ec14a6fb8ec2bda393e *NAMESPACE
 dbca4af7f3f4aa7d27475354267e3e6d *R/admissions.R
 8d5a9d524adecb33a6f16b45b7025273 *R/brca.R
 150c0e56c6b72e570103579119b641be *R/brexit_polls.R
 29f8c371de6641d403307c5d88553e44 *R/death_prob.R
 407e0a4d788b5df1608a181c1ee822d6 *R/divorce_margarine.R
 a3f93810d777b8458492c996950e63f7 *R/ds_theme_set.R
+3b49076113885258749edea5180f51ad *R/fit_recommender_model.R
 b880556c9c283294ab02aabd68746fe1 *R/gapminder.R
 44d1a41e62b00726aa4e3bb190167d31 *R/greenhouse_gases.R
 73bb4afd85a7c9d06c500346d27cc658 *R/heights.R
@@ -25,6 +26,7 @@ dd025b364c8b265424942fdd35cf8375 *R/polls_us_election_2016.R
 7d3b8349a4c2871f1e048b2ec1edac66 *R/read_mnist.R
 a29550d0fa7091af507399e5947e41b3 *R/reported_heights.R
 864bab037c5c43e4195ad6e4ea2aef27 *R/research_funding_rates.R
+8f238a4da451c2783b4cb3221eec81ef *R/results_us_election_2012.R
 fadec1e706de98467072838bf0e3f802 *R/rfalling_object.R
 10865b0871b76fe8949160135687d99d *R/stars.R
 ccc9bdccb2e841a53313c67286e138e8 *R/take_poll.R
@@ -34,7 +36,7 @@ ecc9ff827d7237a5f326d80b57b00c10 *R/trump_tweets.R
 7a2ca8ee29122e6369b956a5b5106fe7 *R/us_contagious_disease.R
 ddd652760fe4b84d28012e2cc70751a1 *R/utils.R
 56cb813ddceaf0e30321326712710127 *README.md
-ea124a494ad7922985532ad3b308e4d5 *build/partial.rdb
+1bf18d9c216b8d95033f0bd2fe2906b2 *build/partial.rdb
 a56518865cd8a3573aab9f5018f4d452 *data/admissions.rda
 e2e336f319dd0ea2d7701d44de0c9c4b *data/brca.rda
 d1cb5b9fb39cb636f68730b91639ec7b *data/brexit_polls.rda
@@ -54,11 +56,12 @@ bef5efe1fe9f66d4502084d79d89d2fc *data/nyc_regents_scores.rda
 594f8870fe0b94ab7dd7f3a9af183431 *data/olive.rda
 6e50317a5b7c6ea20839073e873df18d *data/outlier_example.rda
 9dbde07e922bcd0d904d1e6c4a833e74 *data/polls_2008.rda
-1299cd72e1c10bc2f6f4f1c69affbad9 *data/polls_us_election_2016.rda
+b85979a85ad7f987d500c7b0bbad290a *data/polls_us_election_2016.rda
 ad65b49fcfc63724ddbec65b61a86de6 *data/pr-death-counts.rda
 9921d987c814bf6d38794e97bf75dad9 *data/raw_data_research_funding_rates.rda
 f6f815654646053114271833f5a3278c *data/reported_heights.rda
 88a940460046960304fbbbe98fd85ac9 *data/research_funding_rates.rda
+809e54e194fa407b5e372fd94e5dff11 *data/results_us_election_2012.rda
 a49b247ed59cd9212d4dc51766c84527 *data/stars.rda
 0450f59745f8ade02e0178805d9abd78 *data/temp_carbon.rda
 c1714dced2229dac1867f640bd3cee08 *data/tissue_gene_expression.rda
@@ -93,10 +96,11 @@ dfb6cad3aa58ae2168e2aa9f5cbd097f *inst/script/make-na_example-rda.R
 19fbc7b6f6433758c67be5563c370cc6 *inst/script/make-olive.R
 86104e6153da06737d137a474a8355b1 *inst/script/make-outlier_example.R
 5d77b9f41173e0af9bb684c47f33c7a6 *inst/script/make-polls_2008.R
-9c25341890736d42cd9a5cb72719beff *inst/script/make-polls_us_election_2016.R
+49c4e295ad2f15a9ca8619bff724ff3b *inst/script/make-polls_us_election_2016.R
 1663e2eef4b3c19c3d8b5b7dc141e332 *inst/script/make-pr_death_counts.R
 5fef559be95fceaa95458dc8258e009c *inst/script/make-reported_heights-rda.R
 43078fceea67a668075ced2e35adfdc1 *inst/script/make-research_funding_rates.R
+b4af3d594d54c369e2cd87f92316da11 *inst/script/make-results_us_election_2012.R
 a2bf59b0e8e203c0f594fd77a4142b86 *inst/script/make-stars.R
 dfbcbc4796f02141635fa19093a3f7d6 *inst/script/make-temp_carbon.R
 e48ac8ee56702af9b813dddd28620c4c *inst/script/make-tissue-gene-expression.R
@@ -109,6 +113,7 @@ b97347b3121d94a68be1e50dd4796bc9 *man/brexit_polls.Rd
 ec6e11d76c102d16ee660ba139e7a36c *man/death_prob.Rd
 10357db7e739b6e30764b7b890cd65ba *man/divorce_margarine.Rd
 8992a556d5ea95e4846d11631dc685bc *man/ds_theme_set.Rd
+fb463d1c7a17b0d9b56f053ad19210fd *man/fit_recommender_model.Rd
 346462b7196788960591fcbab7e03bf2 *man/gapminder.Rd
 0ee11a959ff5618a0f4777b9bfe09c20 *man/greenhouse_gases.Rd
 17cf871af0a7c7119c76d60719dc0eb7 *man/heights.Rd
@@ -128,6 +133,7 @@ c770c8263411ca174697993ae67c1ed0 *man/outlier_example.Rd
 68913392dda6f26fbe841fd176c88aa8 *man/read_mnist.Rd
 d6d4d729ebd98d7107291ddd327dab95 *man/reported_heights.Rd
 ab371662030e423e276c760dd316e70d *man/research_funding_rates.Rd
+304c4ce3981815d603c2df197b62789a *man/results_us_election_2012.Rd
 5894869da08f968666f4f712d68db0c4 *man/rfalling_object.Rd
 ff179b191a3b5afa896ab81c42c7546e *man/stars.Rd
 81d891c1b9372c129c1e67ab8206c163 *man/take_poll.Rd
